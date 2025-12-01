@@ -31,6 +31,7 @@ double distance(Point a, Point b){
 
 double perimeter(Triangle abc){
     double perimeter = distance(abc.a,abc.b) + distance(abc.b,abc.c) + distance(abc.c,abc.a);
+    return perimeter;
 }
 
 int main(){
